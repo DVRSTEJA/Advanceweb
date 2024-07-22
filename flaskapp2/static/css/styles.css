@@ -1,0 +1,89 @@
+*{
+    margin:0;
+}
+.navbar > h1{
+    margin: 0;
+}
+body{
+    background-color: silver;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 10px;;
+}
+.oh-no {
+    color: red;
+    font-weight: bold;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    padding: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #0c550e; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #0c550e; 
+}
+.new-user-btn {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.new-user-btn:hover {
+    background-color: #005f6b;
+}
+
+.thank-you-message {
+    text-align: center;
+    margin-top: 50px;
+}
+.icon {
+    color: #0c550e; 
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #3a3b3e;
+    overflow: hidden;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar h1 {
+    margin: 0;
+    text-align: left;
+}
