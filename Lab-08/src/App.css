@@ -1,0 +1,12 @@
+#main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body{
+  background-color: rgb(119, 9, 9);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
